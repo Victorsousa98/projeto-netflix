@@ -27,7 +27,6 @@ header .logo{
     color: var(--vermelho);
     font-family: Arial;
     font-size: 48px;
-    margin-left: 5px;
 }
 
 header nav a{
@@ -56,6 +55,7 @@ main .filmeprincipal{
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
+    
     
 }
 
@@ -93,5 +93,12 @@ main .botao:hover{
     margin-right: 8px;
 }
 
+.container{  /*WRAPPER E CONTAINER NA AULA 6*/
+    margin-left: 10px;
+}
+
+.filmeprincipal .container{
+    width: 60%;
+}
 
 
