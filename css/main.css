@@ -8,6 +8,7 @@
     padding: 0;
     box-sizing: border-box;
     border-radius: 5px;
+    text-decoration: none;
 }
 
 /*///////////////BASE//////////////*/
@@ -24,7 +25,7 @@ header .container{
     justify-content: space-between;
 }
 
-header .logo{
+header .logo a{
     color: var(--vermelho);
     font-family: Arial;
     font-size: 48px;
@@ -46,7 +47,7 @@ header nav a:hover{
 
 main .filmeprincipal{
     font-size: 16px;
-    background: linear-gradient(rgba(0,0,0,.50), rgba(0,0,0,.50)100%), url(../img/capa-house.jpg);
+    background: linear-gradient(rgba(0,0,0,.50), rgba(0,0,0,.50)100%), url(../img-anime/demon-slayer-filme.png);
      /*PARA AJUSTE DA IMAGEM*/
     height: 400px; /*TAMANHO DA CAIXA*/
     background-size: cover;/*PARA IMG SE AJUSTAR AO TAMANHO DA CAIXA*/
@@ -108,6 +109,30 @@ main .botao:hover{
     display: block;
 }
 
+.continuar-assistindo{
+    padding: 10px;
+    padding-bottom: 0;
+}
+
 .carrosel-filmes{
     margin-top: 5px;
+}
+
+/*////////////PAGE NARUTO//////////////*/
+
+.page-fundo-naruto{
+    height: 100vh;
+    background-size: cover;
+    background: linear-gradient(rgba(0,0,0,.50), rgba(0,0,0,.50)100%), url(https://www.themoviedb.org/t/p/original/koY8N9Y8IcLlb2eJXz50X1hFUL5.jpg);
+
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+
+}
+
+.logo-naruto-page img{
+    width: 400px;
+    padding-left: 10px;
 }
